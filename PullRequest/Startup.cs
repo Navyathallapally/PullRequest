@@ -44,6 +44,7 @@ namespace PullRequest
             app.UseStaticFiles();
 
             app.UseRouting();
+            Console.WriteLine("hello my world!");
 
             app.UseAuthorization();
 
